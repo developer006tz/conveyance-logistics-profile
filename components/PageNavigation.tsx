@@ -10,6 +10,9 @@ const routes = [
   '/services-and-solutions-2',
   '/our-products',
   '/our-products-2',
+  '/legal-informations',
+  '/legal-informations-2',
+  'contact-informations'
 ]
 
 interface PageNavigationProps {
