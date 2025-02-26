@@ -46,21 +46,37 @@ function TableOfContent() {
                 </div>
                 <div className="pl-8 space-y-3">
                   <div className="flex items-center justify-between text-white/80 hover:text-primary transition-colors cursor-pointer group">
-                    <p className="text-lg">Company Overview</p>
+                    <p className="text-lg">About Us</p>
+                    <div className="flex items-center gap-2">
+                      <div className="w-12 h-[1px] bg-primary/30 group-hover:bg-primary" />
+                      <span>01</span>
+                    </div>
+                  </div>
+                  <div className="flex items-center justify-between text-white/80 hover:text-primary transition-colors cursor-pointer group">
+                    <p className="text-lg">Our History</p>
+                    <div className="flex items-center gap-2">
+                      <div className="w-12 h-[1px] bg-primary/30 group-hover:bg-primary" />
+                      <span>01</span>
+                    </div>
+                  </div>
+                  <div className="flex items-center justify-between text-white/80 hover:text-primary transition-colors cursor-pointer group">
+                    <p className="text-lg">Mission & Vission</p>
                     <div className="flex items-center gap-2">
                       <div className="w-12 h-[1px] bg-primary/30 group-hover:bg-primary" />
                       <span>02</span>
                     </div>
                   </div>
                   <div className="flex items-center justify-between text-white/80 hover:text-primary transition-colors cursor-pointer group">
-                    <p className="text-lg">Mission & Vision</p>
+                    <p className="text-lg">Our Core values</p>
                     <div className="flex items-center gap-2">
                       <div className="w-12 h-[1px] bg-primary/30 group-hover:bg-primary" />
-                      <span>03</span>
+                      <span>02</span>
                     </div>
                   </div>
                 </div>
               </div>
+
+              
 
               {/* Section 2 */}
               <div className="group">
@@ -71,21 +87,21 @@ function TableOfContent() {
                       Services & Solutions
                     </h2>
                   </div>
-                  <span className="text-2xl font-light">04</span>
+                  <span className="text-2xl font-light">03</span>
                 </div>
                 <div className="pl-8 space-y-3">
                   <div className="flex items-center justify-between text-white/80 hover:text-primary transition-colors cursor-pointer group">
                     <p className="text-lg">Container Solutions</p>
                     <div className="flex items-center gap-2">
                       <div className="w-12 h-[1px] bg-primary/30 group-hover:bg-primary" />
-                      <span>05</span>
+                      <span>03</span>
                     </div>
                   </div>
                   <div className="flex items-center justify-between text-white/80 hover:text-primary transition-colors cursor-pointer group">
                     <p className="text-lg">Logistics Management</p>
                     <div className="flex items-center gap-2">
                       <div className="w-12 h-[1px] bg-primary/30 group-hover:bg-primary" />
-                      <span>06</span>
+                      <span>04</span>
                     </div>
                   </div>
                 </div>
@@ -98,21 +114,21 @@ function TableOfContent() {
                     <ChevronRight className="w-5 h-5 text-primary" />
                     <h2 className="text-2xl font-semibold">Our Products</h2>
                   </div>
-                  <span className="text-2xl font-light">08</span>
+                  <span className="text-2xl font-light">05</span>
                 </div>
                 <div className="pl-8 space-y-3">
                   <div className="flex items-center justify-between text-white/80 hover:text-primary transition-colors cursor-pointer group">
                     <p className="text-lg">Dry Containers & Refer Containers</p>
                     <div className="flex items-center gap-2">
                       <div className="w-12 h-[1px] bg-primary/30 group-hover:bg-primary" />
-                      <span>08</span>
+                      <span>05</span>
                     </div>
                   </div>
                   <div className="flex items-center justify-between text-white/80 hover:text-primary transition-colors cursor-pointer group">
                     <p className="text-lg">Flat-rack Containers & Open-Top Containers</p>
                     <div className="flex items-center gap-2">
                       <div className="w-12 h-[1px] bg-primary/30 group-hover:bg-primary" />
-                      <span>9</span>
+                      <span>06</span>
                     </div>
                   </div>
                 
@@ -130,7 +146,7 @@ function TableOfContent() {
                      }
                     </h2>
                   </div>
-                  <span className="text-2xl font-light">10</span>
+                  <span className="text-2xl font-light">07</span>
                 </div>
                 <div className="pl-8 space-y-3">
                   <div className="flex items-center justify-between text-white/80 hover:text-primary transition-colors cursor-pointer group">
@@ -139,7 +155,7 @@ function TableOfContent() {
                     </p>
                     <div className="flex items-center gap-2">
                       <div className="w-12 h-[1px] bg-primary/30 group-hover:bg-primary" />
-                      <span>10</span>
+                      <span>07</span>
                     </div>
                   </div>
                   <div className="flex items-center justify-between text-white/80 hover:text-primary transition-colors cursor-pointer group">
@@ -148,7 +164,7 @@ function TableOfContent() {
                     </p>
                     <div className="flex items-center gap-2">
                       <div className="w-12 h-[1px] bg-primary/30 group-hover:bg-primary" />
-                      <span>11</span>
+                      <span>08</span>
                     </div>
                   </div>
                 </div>
@@ -163,21 +179,21 @@ function TableOfContent() {
                       Contact Information
                     </h2>
                   </div>
-                  <span className="text-2xl font-light">12</span>
+                  <span className="text-2xl font-light">09</span>
                 </div>
                 <div className="pl-8 space-y-3">
                   <div className="flex items-center justify-between text-white/80 hover:text-primary transition-colors cursor-pointer group">
-                    <p className="text-lg">Office Locations</p>
+                    <p className="text-lg">Dar-es-salaam branch</p>
                     <div className="flex items-center gap-2">
                       <div className="w-12 h-[1px] bg-primary/30 group-hover:bg-primary" />
-                      <span>12</span>
+                      <span>09</span>
                     </div>
                   </div>
                   <div className="flex items-center justify-between text-white/80 hover:text-primary transition-colors cursor-pointer group">
-                    <p className="text-lg">Get in Touch</p>
+                    <p className="text-lg">Dodoma Branch</p>
                     <div className="flex items-center gap-2">
                       <div className="w-12 h-[1px] bg-primary/30 group-hover:bg-primary" />
-                      <span>13</span>
+                      <span>09</span>
                     </div>
                   </div>
                 </div>
@@ -186,7 +202,7 @@ function TableOfContent() {
           </div>
 
           {/* Footer */}
-          <div className="mt-16 text-center">
+          <div className="text-center">
             <img
               src="https://api.conveyance.co.tz/images/logo.png"
               alt="Conveyance Logo"
