@@ -6,6 +6,10 @@ const routes = [
   '/table-of-content',
   '/company-overview',
   '/mission-and-vission',
+  '/services-and-solutions',
+  '/services-and-solutions-2',
+  '/our-products',
+  '/our-products-2',
 ]
 
 interface PageNavigationProps {
