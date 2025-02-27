@@ -10,7 +10,7 @@ function OurProducts() {
       description: "It is the most common type of containers. It is used for a large range of cargoes, suitable for shipment in containers by their sizes and not requiring the compliance with special conditions of carriage. Standard container is a rectangular box of standard dimensions made of corrugated metal and with doors on one end. Inside, plank wood floor is usually installed."
     },
     {
-      title: "Reffer Container",
+      title: "Reefer Container",
       image: "/images/refeer-container.jpg",
       description: "Refrigerated container is the type of container which are equipped with a system that helps to maintain an internal temperature of between -25° and +25°. These are a great solution for a wide variety of cold storage applications. This portable storage containers are available for sale; in the shipping industry they are commonly called as \"Reefers.\"."
     },

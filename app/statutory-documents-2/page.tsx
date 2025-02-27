@@ -2,7 +2,7 @@ import { PageNavigation } from "@/components/PageNavigation";
 import { Lightbulb, Package, Shield, Target } from "lucide-react";
 import React from 'react';
 
-function LegalInformations2() {
+function StatutoryDocuments2() {
   const certificates = [
     {
       title: "Certificate of Incorporation",
@@ -12,7 +12,7 @@ function LegalInformations2() {
 
   return (
     <>
-      <PageNavigation currentPath="/legal-informations-2" />
+      <PageNavigation currentPath="/statutory-documents-2" />
       <div className="w-[210mm] min-h-[297mm] mx-auto bg-secondary relative overflow-hidden print:w-[210mm] print:h-[297mm] print:overflow-hidden print:break-after-page">
         {/* Background Pattern */}
         <div className="absolute inset-0 z-0 print:block">
@@ -33,7 +33,7 @@ function LegalInformations2() {
           {/* Header */}
           <div className="mb-8 text-center">
             <h1 className="text-4xl font-bold text-white mb-4">
-              {"Legal Informations"}
+              {"Statutory Documents"}
             </h1>
             <div className="w-24 h-1 bg-primary mx-auto" />
           </div>
@@ -67,4 +67,4 @@ function LegalInformations2() {
   );
 }
 
-export default LegalInformations2;
+export default StatutoryDocuments2;

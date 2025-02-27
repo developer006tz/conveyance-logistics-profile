@@ -118,7 +118,7 @@ function TableOfContent() {
                 </div>
                 <div className="pl-8 space-y-3">
                   <div className="flex items-center justify-between text-white/80 hover:text-primary transition-colors cursor-pointer group">
-                    <p className="text-lg">Dry Containers & Refer Containers</p>
+                    <p className="text-lg">Dry Containers & Reefer Containers</p>
                     <div className="flex items-center gap-2">
                       <div className="w-12 h-[1px] bg-primary/30 group-hover:bg-primary" />
                       <span>05</span>
@@ -142,7 +142,7 @@ function TableOfContent() {
                     <ChevronRight className="w-5 h-5 text-primary" />
                     <h2 className="text-2xl font-semibold">
                      {
-                      " Legal Information"
+                      "Statutory Documents"
                      }
                     </h2>
                   </div>
