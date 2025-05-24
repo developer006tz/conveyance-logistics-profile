@@ -19,7 +19,7 @@ export default function RootLayout({
       <head>
         <style>{`
           @page {
-            size: A4;
+            size: A5;
             margin: 0;
           }
           @media print {

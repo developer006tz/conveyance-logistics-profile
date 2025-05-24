@@ -14,18 +14,12 @@ export default function FlierFront() {
   const coreValues = [
     {
       title: "Integrity",
-      description:
-        "We conduct our business with the highest honesty and ethical standards.",
     },
     {
       title: "Reliability",
-      description:
-        "We are committed to providing consistent and dependable logistics and container solutions.",
     },
     {
       title: "Customer-Centricity",
-      description:
-        "We place our client's needs at the heart of everything we do, aiming for exceptional service.",
     },
   ];
 
@@ -47,7 +41,7 @@ export default function FlierFront() {
       {/* Content Container */}
       <div className="relative z-10 flex flex-col h-full p-8 print:p-8">
         {/* Logo Section */}
-        <div className="pt-4 pb-2">
+        <div className=" pb-2">
           <img
             src="/images/conveyance-horizontal-white.png"
             alt="Conveyance Logo"
@@ -57,16 +51,14 @@ export default function FlierFront() {
 
         {/* Introduction */}
         <div className="bg-white/5 backdrop-blur-sm rounded-lg p-4 shadow-xl mb-4">
-          <h2 className="text-xl font-bold text-primary mb-2 text-center">
-            About Us
-          </h2>
           <p className="text-white/90 text-sm leading-relaxed">
-            Established in 2018, Conveyance has grown from a local container
-            provider into a trusted leader in Tanzania's logistics and container
-            industry. With operations in Dar es Salaam and Dodoma, we deliver
-            innovative, sustainable, and customer-focused solutions. Trusted by
-            clients like Borderless, we are committed to supporting trade and
-            driving growth through technology and continuous improvement.
+            &nbsp; <span className="text-lg">E</span>stablished in 2018, Conveyance has grown from a local
+            container provider into a trusted leader in Tanzania's logistics and
+            container industry. With operations in Dar es Salaam and Dodoma, we
+            deliver innovative, sustainable, and customer-focused solutions.
+            Trusted by clients like Borderless, we are committed to supporting
+            trade and driving growth through technology and continuous
+            improvement.
           </p>
         </div>
 
@@ -81,7 +73,7 @@ export default function FlierFront() {
             {coreValues.map((value, index) => (
               <div
                 key={index}
-                className="bg-white/5 backdrop-blur-sm rounded-lg p-3 shadow-xl text-center"
+                className="bg-white/5 backdrop-blur-sm rounded-lg p-[10px] shadow-xl text-center"
               >
                 <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-2">
                   <div className="w-9 h-9 rounded-full bg-primary/20 flex items-center justify-center">
