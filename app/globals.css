@@ -2,6 +2,32 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Print-specific styles for A4 invoice */
+@media print {
+  body {
+    background: white !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+  .print\:hidden {
+    display: none !important;
+  }
+  /* Enforce A4 size and remove default margins */
+  @page {
+    size: A4;
+    margin: 0;
+  }
+  .a4-invoice {
+    width: 210mm !important;
+    height: 297mm !important;
+    box-sizing: border-box;
+    padding: 15mm !important;
+    background: white !important;
+    box-shadow: none !important;
+    overflow: visible !important;
+  }
+}
+
 :root {
   --primary: 187 100% 37%;
   --primary-foreground: 0 0% 100%;
